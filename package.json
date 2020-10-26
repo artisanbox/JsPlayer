@@ -1,0 +1,16 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "packager": "electron-packager ./ myapp --out ./OutApp --electron-version 11.0.0-beta.9 --overwrite --icon=./favicon.ico"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-packager": "^15.1.0"
+  }
+}

@@ -1,0 +1,100 @@
+body {
+    zoom:1.7;
+}
+
+.hide {
+    display: none;
+    transition: 1s;
+}
+
+.player {
+    /* border: 1px solid; */
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+body {
+    background-color: #f1aac2;
+}
+
+img.begin {
+    width: 20px;
+    position: absolute;
+    top: 56%;
+    /* transform: translateY(-50%); */
+    left: 50%;
+    transform: translate(-50%);   
+    transition: 1s ease top;       
+}
+
+img.pause {
+    width: 20px;
+    position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%);    
+    transition: 1s;  
+}
+
+img.pre {
+    width: 20px;
+    position: absolute;
+    top: 55%;
+    /* transform: translateY(-50%); */
+    left: 25%;
+    transform: translate(-50%);
+}
+
+img.next {
+    width: 20px;
+    position: absolute;
+    top: 55%;
+    /* transform: translateY(-50%); */
+    left: 75%;
+    transform: translate(-50%);
+}
+
+.music {
+    width: 140px;
+    height: 30px;
+}
+
+.orange {
+    border: 1px solid;
+    background-color: black;
+}
+
+.line {
+    border: 1.2px solid;
+    position: relative;
+    bottom: 14px;
+}
+
+.duration {
+    font-size: 8px;
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+    transition: 1s;
+}
+
+.current {
+    font-size: 8px;
+}
+
+.logo {
+    text-align: center;
+    position: relative;
+    bottom: 28px;
+}
+
+.time {
+    position: relative;
+    bottom: 12px;
+}
+
