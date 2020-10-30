@@ -1,7 +1,7 @@
 # JsPlayer
 - 利用 Js Html Css 写的 播放器
 
-![image](https://github.com/artisanbox/JsPlayer/blob/main/demoImages/interface.png)
+![image](https://juantu.cn/wp-content/uploads/2020/10/interface-1.png)
 
 ## 播放器功能
 - 歌曲播放相关功能
